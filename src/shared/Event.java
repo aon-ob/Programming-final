@@ -16,16 +16,13 @@ public class Event {
 	// array List containing participant objects
 	private ArrayList<Participant> participants = new ArrayList<Participant>();
 
-	// Static variable to count number of events made and store them
-	private static ArrayList<Event> eventList = new ArrayList<Event>();
 
 	// Default constructor
 	public Event() {
 		super();
 
-		eventList.add(this);
 
-		setName("Event " + eventList.size());
+		setName("My Event");
 		setPlace("Unknown");
 		setDay(1);
 		setMonth(1);
@@ -141,14 +138,6 @@ public class Event {
 	// Method to return the date formatted (month/day/year)
 	public String getDate() {
 		return (month + "/" + day + "/" + year);
-	}
-
-	public static ArrayList<Event> getEventList() {
-		return eventList;
-	}
-
-	public static void setEventList(ArrayList<Event> eventList) {
-		Event.eventList = eventList;
 	}
 
 	public void setParticipants(ArrayList<Participant> participants) {
