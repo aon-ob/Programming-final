@@ -1,9 +1,6 @@
 package oop;
 //import necessary java.util classes
 import java.util.ArrayList;
-// import necessary shared classes
-import shared.Event;
-import shared.Participant;
 
 // EventManager class that is used to manage all events currently available and allows sorting, searching, and viewing events
 public class EventManager {

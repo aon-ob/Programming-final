@@ -3,8 +3,8 @@ package eventdriven;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
+import oop.Event;
 import oop.EventManager;
-import shared.Event;
 
 import java.awt.*;
 

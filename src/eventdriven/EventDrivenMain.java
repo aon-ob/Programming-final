@@ -16,9 +16,9 @@ import javax.swing.border.LineBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
+import oop.Event;
 //using event manager from OOP paradigm
 import oop.EventManager;
-import shared.Event;
 
 public class EventDrivenMain {
 
@@ -63,6 +63,7 @@ public class EventDrivenMain {
 
 		// Search feature
 
+		// (Overriding)
 		// (Event driven listener for search bar)
 		searchField.getDocument().addDocumentListener(new DocumentListener() {
 			// Called when text is typed or pasted

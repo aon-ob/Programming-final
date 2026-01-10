@@ -7,10 +7,11 @@ import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
 import java.util.ArrayList;
 
+import oop.Event;
 // using event manager from OOP paradigm
 import oop.EventManager;
-import shared.Event;
 
+// (Inheritance)
 // Event list class is used to display all event cards in order with a scroll bar
 public class EventList extends JScrollPane {
 

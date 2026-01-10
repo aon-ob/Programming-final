@@ -3,14 +3,12 @@ package eventdriven;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
+import oop.Event;
 // Import event manager from oop paradigm
 import oop.EventManager;
+import oop.Participant;
 
 import java.awt.*;
-
-// Import shared classes
-import shared.Event;
-import shared.Participant;
 
 // Popup that shows when the user wants to add a new participant
 public class ParticipantRegistrationMenu extends JDialog {

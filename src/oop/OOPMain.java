@@ -3,9 +3,6 @@ package oop;
 // Import necessary java.util classes
 import java.util.Scanner;
 
-// Import necessary shared classes
-import shared.Participant;
-
 public class OOPMain {
 
 	public static void main(String[] args) {
